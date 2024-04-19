@@ -16,6 +16,7 @@ export function AuthForm() {
 
       toast({
         title: 'Magic Link Sent',
+
         description: 'Check your email for the magic link to login',
       })
     } catch (error) {
